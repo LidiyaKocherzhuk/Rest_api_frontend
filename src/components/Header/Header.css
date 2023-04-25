@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 100px;
+    border: 2px solid;
+}
+
+.header a {
+    border: 1px solid;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    border-radius: 5%;
+    text-decoration: none;
+    color: black;
+}
+
+.header a[class='active']{
+    color: cornflowerblue;
+}
